@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#add-btn{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 50%;
+    background: rgb(138, 113, 0);
+    box-shadow: 0.2rem 0.2rem 0.2rem #151515;
+    color: #fff;
+    cursor: pointer;
+}
+#add-note-form{
+    display: none;
+}
+
+input
+{
+    background: transparent;
+    border: none;
+}
+
+ table{
+    position: relative;
+    width: 20%;
+    margin: 1rem 2rem;    
+   background-color: #ffee97; 
+    box-shadow: 0.2rem 0.2rem 0.3rem #151515;
+}
+
+ table th{
+    background-color: rgb(138, 113, 0);
+    padding: 0.5rem 0;
+    color: #fff;
+}
+table th a{
+    color: #fff;
+    text-decoration: none;
+}
+
+input::placeholder{
+    color: #151515;
+}
+ table td{
+    padding: 1rem 0.3rem;
+    background: #ffee97;
+}
+button{
+    background: rgb(138, 113, 0);
+    padding: 0.5rem 0.6rem;
+    outline: none;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.5rem rgb(122, 100, 1);
+    color: #fff;
+}
+/* .form-popup {
+    display: none;
+    z-index: 9;
+}
+
+.add-note-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-note-form input,
+.add-note-form textarea
+{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+{
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+
+}
+
+ table{
+    position: relative;
+    width: 20%;
+    margin: 1rem 2rem;    
+   background-color: #282828; 
+    box-shadow: 0.2rem 0.2rem 0.3rem #151515;
+}
+
+ table th{
+    background-color: #202020;
+    padding: 0.5rem 0;
+}
+ table td{
+    padding: 1rem 0.3rem;
+    background: #272727;
+}
+button{
+    background-color: #272727;
+    outline: none;
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.2rem #151515;
+    color: #fff;
+}
+.add-btn{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.9rem;
+    border-radius: 50%;
+} */
+
+/* input[type="submit"]{
+    display: none;
+} */
+/* table tr:nth-child(3){
+    width: 10%;
+    position: absolute;
+    right: 2rem;
+    bottom: 0.2rem;
+
+} */
+textarea:focus, input:focus{
+    outline: none;
+}
